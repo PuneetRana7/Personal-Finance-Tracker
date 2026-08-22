@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 min-h-screen antialiased relative;
+    background-color: #f8fafc;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600' viewBox='0 0 600 600'%3E%3Cdefs%3E%3Cpattern id='grid' width='50' height='50' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 50 0 L 0 0 0 50' fill='none' stroke='%23cbd5e1' stroke-width='0.6' opacity='0.3' /%3E%3Ccircle cx='50' cy='50' r='1.2' fill='%2394a3b8' opacity='0.4' /%3E%3C/pattern%3E%3ClinearGradient id='areaGrad' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0%25' stop-color='%233b82f6' stop-opacity='0.08' /%3E%3Cstop offset='100%25' stop-color='%233b82f6' stop-opacity='0.0' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='600' height='600' fill='url(%23grid)' /%3E%3Cpath d='M 20 450 Q 120 380 220 420 T 420 300 T 580 180 L 580 550 L 20 550 Z' fill='url(%23areaGrad)' /%3E%3Cpath d='M 20 450 Q 120 380 220 420 T 420 300 T 580 180' fill='none' stroke='%232563eb' stroke-width='1.8' stroke-dasharray='6,4' opacity='0.12' /%3E%3Cpath d='M 20 500 Q 160 440 280 470 T 580 240' fill='none' stroke='%230f172a' stroke-width='1.2' opacity='0.08' /%3E%3Cline x1='140' y1='320' x2='140' y2='390' stroke='%23059669' stroke-width='1.2' opacity='0.15' /%3E%3Crect x='136' y='335' width='8' height='30' rx='2' fill='%23059669' opacity='0.12' /%3E%3Cline x1='340' y1='220' x2='340' y2='290' stroke='%232563eb' stroke-width='1.2' opacity='0.15' /%3E%3Crect x='336' y='235' width='8' height='35' rx='2' fill='%232563eb' opacity='0.12' /%3E%3Crect x='460' y='420' width='9' height='60' rx='2' fill='%233b82f6' opacity='0.07' /%3E%3Crect x='473' y='390' width='9' height='90' rx='2' fill='%232563eb' opacity='0.09' /%3E%3Crect x='486' y='360' width='9' height='120' rx='2' fill='%231d4ed8' opacity='0.1' /%3E%3Crect x='499' y='400' width='9' height='80' rx='2' fill='%233b82f6' opacity='0.08' /%3E%3Ctext x='80' y='120' fill='%231e40af' font-size='28' font-family='sans-serif' font-weight='800' opacity='0.05'%3E₹%3E%3C/text%3E%3Ctext x='260' y='100' fill='%232563eb' font-size='22' font-family='sans-serif' font-weight='800' opacity='0.06'%3E%25%3E%3C/text%3E%3Ctext x='480' y='140' fill='%23059669' font-size='24' font-family='sans-serif' font-weight='bold' opacity='0.07'%3E↗%3E%3C/text%3E%3Ctext x='380' y='520' fill='%231e40af' font-size='26' font-family='sans-serif' font-weight='800' opacity='0.05'%3E₹%3E%3C/text%3E%3Ctext x='180' y='530' fill='%23475569' font-size='18' font-family='sans-serif' font-weight='bold' opacity='0.05'%3EΔ%3E%3C/text%3E%3Ccircle cx='220' cy='420' r='3.5' fill='%232563eb' opacity='0.15' /%3E%3Ccircle cx='420' cy='300' r='3.5' fill='%232563eb' opacity='0.15' /%3E%3Ccircle cx='580' cy='180' r='3.5' fill='%23059669' opacity='0.18' /%3E%3C/svg%3E");
+    background-size: 600px 600px;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
